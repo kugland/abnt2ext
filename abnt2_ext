@@ -1,0 +1,250 @@
+default xkb_symbols "abnt2_ext" {
+    include "pc+br+inet(evdev)"
+    include "terminate(ctrl_alt_bksp)"
+
+    name[group1]="Portuguese (Brazil)";
+
+    override key <AE01> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [               1,          exclam,     onesuperior,      exclamdown ],
+        symbols[Group2]= [               1,          exclam ]
+    };
+    override key <AE02> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [               2,              at,     twosuperior,         onehalf ],
+        symbols[Group2]= [               2,              at ]
+    };
+    override key <AE03> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [               3,      numbersign,   threesuperior,   threequarters ],
+        symbols[Group2]= [               3,      numbersign ]
+    };
+    override key <AE04> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [               4,          dollar,   dead_currency,      onequarter ],
+        symbols[Group2]= [               4,          dollar ]
+    };
+    override key <AE05> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [               5,         percent,        permille,        NoSymbol ],
+        symbols[Group2]= [               5,         percent ]
+    };
+    override key <AE06> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [               6,  dead_diaeresis,         notsign, dead_doubleacute ],
+        symbols[Group2]= [               6,  dead_diaeresis ]
+    };
+    override key <AE07> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [               7,       ampersand, enfilledcircbullet,       plusminus ],
+        symbols[Group2]= [               7,       ampersand ]
+    };
+    override key <AE08> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [               8,        asterisk,        multiply,        division ],
+        symbols[Group2]= [               8,        asterisk ]
+    };
+    override key <AE09> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [               9,       parenleft, leftsinglequotemark, leftdoublequotemark ],
+        symbols[Group2]= [               9,       parenleft ]
+    };
+    override key <AE10> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [               0,      parenright, rightsinglequotemark, rightdoublequotemark ],
+        symbols[Group2]= [               0,      parenright ]
+    };
+    override key <AE11> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [           minus,      underscore,          endash,          emdash ],
+        symbols[Group2]= [           minus,      underscore ]
+    };
+    override key <AE12> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [           equal,            plus,         section,        notequal ],
+        symbols[Group2]= [           equal,            plus ]
+    };
+    override key <AD01> {
+        type[group1]= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [               q,               Q,           slash,       backslash ],
+        symbols[Group2]= [               q,               Q ]
+    };
+    override key <AD02> {
+        type[group1]= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [               w,               W,        question,    questiondown ],
+        symbols[Group2]= [               w,               W ]
+    };
+    override key <AD03> {
+        type[group1]= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [               e,               E,        EuroSign,           U212F ],
+        symbols[Group2]= [               e,               E ]
+    };
+    override key <AD04> {
+        type[group1]= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [               r,               R,        NoSymbol,      registered ],
+        symbols[Group2]= [               r,               R ]
+    };
+    override key <AD05> {
+        type[group1]= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               t,               T,           thorn,           THORN ],
+        symbols[Group2]= [               t,               T ]
+    };
+    override key <AD06> {
+        type= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [               y,               Y,        NoSymbol,        NoSymbol ]
+    };
+    override key <AD07> {
+        type[group1]= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [               u,               U,      udiaeresis,      Udiaeresis ],
+        symbols[Group2]= [               u,               U ]
+    };
+    override key <AD08> {
+        type[group1]= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [               i,               I,        infinity,        NoSymbol ],
+        symbols[Group2]= [               i,               I ]
+    };
+    override key <AD09> {
+        type[group1]= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               o,               O,              oe,              OE ],
+        symbols[Group2]= [               o,               O ]
+    };
+    override key <AD10> {
+        type[group1]= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               p,               P,          oslash,          Oslash ],
+        symbols[Group2]= [               p,               P ]
+    };
+    override key <AD11> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [      dead_acute,      dead_grave,      dead_breve,     dead_macron ],
+        symbols[Group2]= [      dead_acute,      dead_grave ]
+    };
+    override key <AD12> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [     bracketleft,       braceleft,     ordfeminine,   guillemotleft ],
+        symbols[Group2]= [     bracketleft,       braceleft ]
+    };
+    override key <AC01> {
+        type[group1]= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               a,               A,              ae,              AE ],
+        symbols[Group2]= [               a,               A ]
+    };
+    override key <AC02> {
+        type[group1]= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [               s,               S,          ssharp,    musicalsharp ],
+        symbols[Group2]= [               s,               S ]
+    };
+    override key <AC03> {
+        type[group1]= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               d,               D,             eth,             ETH ],
+        symbols[Group2]= [               d,               D ]
+    };
+    override key <AC04> {
+        type[group1]= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [               f,               F,        function,        NoSymbol ],
+        symbols[Group2]= [               f,               F ]
+    };
+    override key <AC05> {
+        type[group1]= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               g,               G,      dead_greek,        NoSymbol ],
+        symbols[Group2]= [               g,               G ]
+    };
+    override key <AC06> {
+        type[group1]= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               h,               H,           U02BE,           U02BF ],
+        symbols[Group2]= [               h,               H ]
+    };
+    override key <AC07> {
+        type= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [               j,               J,        NoSymbol,        NoSymbol ]
+    };
+    override key <AC08> {
+        type[group1]= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [               k,               K,             kra,       checkmark ],
+        symbols[Group2]= [               k,               K ]
+    };
+    override key <AC09> {
+        type[group1]= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               l,               L,         lstroke,         Lstroke ],
+        symbols[Group2]= [               l,               L ]
+    };
+    override key <AC10> {
+        type[group1]= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [        ccedilla,        Ccedilla,    dead_cedilla,     dead_ogonek ],
+        symbols[Group2]= [        ccedilla,        Ccedilla ]
+    };
+    override key <AC11> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [      dead_tilde, dead_circumflex,      dead_caron, dead_belowmacron ],
+        symbols[Group2]= [      dead_tilde, dead_circumflex ]
+    };
+    override key <TLDE> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [      apostrophe,        quotedbl,         minutes,         seconds ],
+        symbols[Group2]= [      apostrophe,        quotedbl ]
+    };
+    override key <BKSL> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [    bracketright,      braceright,       masculine,  guillemotright ],
+        symbols[Group2]= [    bracketright,      braceright ]
+    };
+    override key <AB01> {
+        type[group1]= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [               z,               Z,       leftarrow,           U27F7 ],
+        symbols[Group2]= [               z,               Z ]
+    };
+    override key <AB02> {
+        type[group1]= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [               x,               X,         uparrow,           U2715 ],
+        symbols[Group2]= [               x,               X ]
+    };
+    override key <AB03> {
+        type[group1]= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [               c,               C,       downarrow,       copyright ],
+        symbols[Group2]= [               c,               C ]
+    };
+    override key <AB04> {
+        type[group1]= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [               v,               V,      rightarrow,        NoSymbol ],
+        symbols[Group2]= [               v,               V ]
+    };
+    override key <AB05> {
+        type[group1]= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [               b,               B,           U20BF,     musicalflat ],
+        symbols[Group2]= [               b,               B ]
+    };
+    override key <AB06> {
+        type[group1]= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               n,               N,        NoSymbol,           U266E ],
+        symbols[Group2]= [               n,               N ]
+    };
+    override key <AB07> {
+        type[group1]= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [               m,               M,              mu,       trademark ],
+        symbols[Group2]= [               m,               M ]
+    };
+    override key <AB08> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [           comma,            less,        ellipsis,   lessthanequal ],
+        symbols[Group2]= [           comma,            less ]
+    };
+    override key <AB09> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [          period,         greater,   NoSymbol,       greaterthanequal ],
+        symbols[Group2]= [          period,         greater ]
+    };
+    override key <AB10> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [       semicolon,           colon,   dead_belowdot,   dead_abovedot ],
+        symbols[Group2]= [       semicolon,           colon ]
+    };
+    override key <LSGT> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [       backslash,             bar,     dead_stroke,     dead_abovering ],
+        symbols[Group2]= [       backslash,             bar ]
+    };
+    override key <AB11> {
+        type[group1]= "FOUR_LEVEL",
+        symbols[Group1]= [           slash,        question,    degree, questiondown ],
+        symbols[Group2]= [           slash,        question ]
+    };
+};
